@@ -21,6 +21,7 @@ if not API_KEY:
     )
 
 
+
 API_URL = "https://api.anthropic.com/v1/messages"
 
 # Permite sobreescribir por variable de entorno; usa Haiku por defecto (Opus suele requerir acceso especial)
