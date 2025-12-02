@@ -20,8 +20,6 @@ if not API_KEY:
         "Define la API en tu archivo .env (local) o en los Secrets de Streamlit Cloud."
     )
 
-
-
 API_URL = "https://api.anthropic.com/v1/messages"
 
 # Permite sobreescribir por variable de entorno; usa Haiku por defecto (Opus suele requerir acceso especial)
